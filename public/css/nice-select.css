@@ -8,8 +8,9 @@
   box-sizing: border-box;
   clear: both;
   display: block;
-  float: left;
-  height: auto;
+  /* float: left; */
+  /* height: auto; */
+  height: 50px;
   outline: none;
   padding-left: 20px;
   padding-right: 35px;
@@ -20,7 +21,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 50%;
+  width: 100%;
   cursor: pointer;
   font-family: inherit;
   font-weight: normal;
