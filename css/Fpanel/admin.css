@@ -1,0 +1,217 @@
+
+    /* Form */
+
+.formAllBlocks{
+    position: relative;
+    border: 1px solid #212529;
+    margin-top: 30px;
+    padding: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+@media only screen and (max-width:768px) {
+    .formAllBlocks{
+        padding: 10px;
+    }
+  }
+.formInfoBlocks{
+    position: absolute;
+    background-color: #FFF9F2;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -26px;
+    left: 10px;
+}
+.formTextBlocks{
+    color: black;
+    margin-top: 15px;
+}
+.formValueBlocks{
+    margin-bottom: 15px;
+}
+
+.categoryArea {
+    border-radius: 15px;
+}
+
+    .categoryArea>div:hover {
+        background-color: #d0cecb;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+/* Log */
+
+.logOneDay {
+    background-color: #212529;
+    color: #6c757d !important;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+    .logOneDay>.logOneDayItems {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+    }
+    .logOneDay>.logOneDayItems:nth-child(even) {
+        background-color: #212529;
+        color: #6c757d !important;
+    }
+    .logOneDay>.logOneDayItems:nth-child(odd) {
+        background: #6c757d !important;
+        color: #212529;
+    }
+
+.logOneDayInfo {
+    margin-bottom: 5px;
+    width: 100%;
+}
+    .logOneDayInfo>.logOneDayInfoS {
+        height: 100%;
+        padding: 15px;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 10px;
+    }
+
+/* Category */
+    .categoryItem{
+        margin-left: 20px;
+        padding-right: 20px;
+        }
+        .categoryMenuArea{
+            line-height: 38px;
+        }
+            .categoryMenuBlocks {
+                position: relative;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                line-height: 20px;
+            }
+            .categorySelectIcon {
+                position: absolute;
+                transition: all 1s;
+                top: 10px;
+            }
+                .categorySelectIcon>i {
+                    transition: all 1s;
+                }
+            .categoryMenuItemLineArea{
+                line-height: 38px;
+            }
+            /* Category In Product */
+            .categoryProductItemLineArea{
+                line-height: 50px;
+            }
+        .categorySelectArea{
+            line-height: 38px;
+            text-align: right!important;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+ /* Top Bar Settings */
+.fpanelLogo{
+    margin-left:25px;
+    line-height: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    .fpanelLogo{
+      margin-left:5px;
+    }
+  }
+  
+.rightMenu>.rightMenuSpan>i {
+    transition: all 1s;
+}
+.whichLocations {
+  text-decoration: none;
+  color: white;
+}
+  .whichLocations:hover {
+    color: grey;
+  }
+  .whichLocationsSelected {
+      text-decoration: none;
+      color: grey;
+      border: 1px dashed #4f4f6e;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .whichLocationsSelected:hover {
+      border: 1px dashed white;
+      color: white;
+  }
+
+/* Animated Foot */
+
+.animatedFoot {
+    cursor: pointer;
+}
+
+.animatedFoot>a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px grey;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.leftanimatedFootMenu a {
+    border-radius: 15px;
+}
+
+@media only screen and (min-width:768px) {
+
+    /* S */
+    .animatedFoot:hover {
+        color: #545454;
+    }
+
+    .animatedFoot:hover>a:after {
+        transform: scaleX(1);
+    }
+}
+
+    /* Waiter Select */
+
+.waiterSelect{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: grey;
+    color: black;
+}
+.waiterSelectCircle{
+    background-color: white;
+}
+.waiterSelectedCircle{
+    background-color: grey;
+    outline-offset: 2px;
+    outline: 1px solid white;
+}
+
+    /* Admin Color CSS */
+
+.adminSettingsArea{
+    cursor: pointer;
+    line-height: 16px;
+}
+.adminUpdateColor{
+    color: #0000FF;
+}
+.adminDeleteColor{
+    color: #FF0000;
+}
+.adminDetailsColor{
+    color: #517a51;
+}
+

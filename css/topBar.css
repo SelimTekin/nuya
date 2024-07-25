@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+}
+.insetButton{
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid grey;
+    height: 43px;
+    color: #0D3044;
+    font-weight: bold;
+}
+.insetButton:hover{
+    box-shadow: inset 0px 0px 10px 0px grey;
+}
+.insetButtonDanger{
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: #8d0808;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid grey;
+    height: 43px;
+    color: white;
+    font-weight: bold;
+}
+.insetButtonDanger:hover{
+    box-shadow: inset 0px 0px 10px 0px white;
+}
+.waiterCallerButton{
+    font-size:10px;
+    color:#0D3044;
+    line-height: 16px;
+    margin-left:10px;
+}

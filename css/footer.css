@@ -1,0 +1,108 @@
+footer {
+    margin-top: 100px;
+    background-color: #f8f9fa !important;
+    border-top: 1px solid #212529;
+}
+    /* Footer Start Part */
+    .footerStart {
+        position: relative;
+    }
+        .footerStartLeftText {
+            min-width: 296.81px;
+            border: 1px solid #212529;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-top-left-radius: 30px;
+            position: absolute;
+            z-index: 9;
+            left: calc(20% - 148.405px);
+            top: -28px;
+            color: grey;
+        }
+        .footerStartRightText {
+            border: 1px solid #212529;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-top-left-radius: 30px;
+            position: absolute;
+            z-index: 9;
+            left: calc(80% - 148.405px);
+            top: -28px;
+            color: grey;
+        }
+        @media only screen and (max-width:767px){ /* S */
+          .footerStartLeftText{
+            left: calc(50% - 148.405px);
+          }
+          .footerStartRightText{
+            display: none;
+          }
+        }
+        
+            .logoPacked {
+                transition: 1s all;
+            }
+            .logoPacked:hover {
+                animation: salsa 800ms linear infinite;
+            }
+            @keyframes salsa {
+                0% {
+                    -ms-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+        
+                33% {
+                    -ms-transform: rotate(40deg);
+                    -moz-transform: rotate(40deg);
+                    -webkit-transform: rotate(40deg);
+                    -o-transform: rotate(40deg);
+                    transform: rotate(40deg);
+                }
+        
+                66% {
+                    -ms-transform: rotate(-40deg);
+                    -moz-transform: rotate(-40deg);
+                    -webkit-transform: rotate(-40deg);
+                    -o-transform: rotate(-40deg);
+                    transform: rotate(-40deg);
+                }
+        
+                100% {
+                    -ms-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+            }
+        .footerLogo {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .footerLogo>.footerLogoImg {
+            width: 100%;
+            max-width: 350px;
+            height: 150px;
+        }
+        
+    /* Footer Start End */
+    .footerEnd {
+        position: relative;
+        animation-duration: 5s;
+        font-size: 12px;
+        color: aliceblue;
+        background-color: #212529 !important;
+    }

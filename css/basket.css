@@ -1,0 +1,38 @@
+.basket-container {
+    display: flex;
+    padding: 0;
+    height: 100vh;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .table-responsive tbody td,
+    .table-responsive thead th,
+    .table-responsive tfoot th {
+        white-space: nowrap;
+    }
+
+    /* Daha küçük ekranlar için yazı boyutunu küçült */
+    .table-responsive tbody td,
+    .table-responsive thead th,
+    .table-responsive tfoot th {
+        font-size: 12px;
+    }
+
+    /* Resim boyutunu küçült */
+    .table-responsive tbody td img {
+        width: 30px;
+    }
+}

@@ -1,0 +1,8 @@
+.form-group {
+    display: flex;
+}
+
+label.form-label{
+    color: #000;
+    font-size: 30px;
+}
